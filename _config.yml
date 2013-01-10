@@ -10,9 +10,9 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Freedom
-tagline: Site Tagline
+tagline: My personal site
 author :
-  name : 
+  name : Congxian Qiu
   email : qcx978132955#gmail.com
   github : cxqiu
   twitter : no
