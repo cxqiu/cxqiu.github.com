@@ -2,8 +2,8 @@
 layout: post
 title: "essential c++"
 description: ""
-category: language, c++
-tags: []
+category: 
+tags: [language, c++]
 ---
 {% include JB/setup %}
 
