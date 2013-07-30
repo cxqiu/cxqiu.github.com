@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "essential c++"
-description: ""
 category: 
 tags: [language, c++]
 ---
@@ -18,3 +17,4 @@ tags: [language, c++]
     T *find(const T* first,const T* last, const T &elem);//first表示array的第一个元素的位置
     last表示array的最后一个元素的下一个位置，因为我们仅仅是比较，所以没问题
 了解Iterator，Iterator其实就是指向元素的一个指针，只不过需要把系统默认的++，equal，inequal
+Iterator的使用可以这样理解，对于vector和list我们都需要使用一个指针，指向当前需要的数据，使用完了之后，我们需要简单的操作来得到下一个，vecotr中存的是连续的空间，我们可以用_p++_的方式，但是list是用链表存的，我们不能用_p++_的方式来得到下一个，但是我们可以把这些统一起来，用Iterator来实现，Iterator会实现相应的++操作符，这个操作符会和相应的数据存储方式有关，如果是vector的话就是普通的++，但是如果是list的话，就是next。这样就可以统一起来的
