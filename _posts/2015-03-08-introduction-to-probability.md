@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introduction to Probability"
+title: "Introduction to Probability(Charles M. Grinstead and J. Laurie Snell)"
 description: "Notes of Introduction to Probability"  
 category: probability, math  
 tags: [math, probability, note]
@@ -24,4 +24,9 @@ Definition 1.4 If $P(E) = p$, the *odds* in favor of the event $E$ occurring are
 *Solution*: We can describe the possible outcomes of this experiment by coordinates as follows: Let $d$ be the distance from the center of the needle to the nearest line. Next, let $L$ be the line determined by the needle, and define $\theta$ as the acute angle that the line $L$ makes with the set of parallel lines. Using this description, we have $0 \leq d \leq 1/2$, and $0 \leq \theta \leq \pi/2$. Moreover, we see that the needle lies across the nearest line if and only if the hypotenuse of the triangle is less than half the length of the needle, that is: $$ \frac{d}{sin \theta} < \frac{1}{2}$$  
 **Definition 2.1** Let $X$ be a continuous real-valued random variable. A *density function* for $X$ is a real-valued function which satisfies $$ P(a \leq X \leq b) = \int_E f(x) dx.$$ for all $a, b \in R$.  
 **Definition 2.2** Let $X$ be a continuous real-valued random variable. Then the cumulative distribution function of $X$ is defined by the equation $$F_X(x) = P(X \leq x).$$  
-**Theorem 2.1** Let $X$ be a continuous real-valued random variable with density function $f(x)$. Then the function defined by: $$F(x) = \int_{-\infty}^{x} f(t)dt$$ is the cumulative distribution function of $X$. Furthermore, we have $$\frac{d}{dx}F(x) = f(x)$$
+**Theorem 2.1** Let $X$ be a continuous real-valued random variable with density function $f(x)$. Then the function defined by: $$F(x) = \int_{-\infty}^{x} f(t)dt$$ is the cumulative distribution function of $X$. Furthermore, we have $$\frac{d}{dx}F(x) = f(x)$$   
+In many experiments, the density function of the relevant random variable is easy to write down. However, it is quite often the case that the **cumulative distribution** function is **easier** to obtain than the **density function**. Of course, once we have the cumulative distribution function, the density function can easily be obtained by differentiation, as the above theorem shows.  
+The density function of *exponential density* is $$ f(t) = \big{ \begin{array}{ll}  
+    \lambda \e^{-\lambda t}, & if t \geq 0\\
+    0, & if t < 0 \end{array} 
+$$
