@@ -27,10 +27,12 @@ Definition 1.4 If $P(E) = p$, the *odds* in favor of the event $E$ occurring are
 **Theorem 2.1** Let $X$ be a continuous real-valued random variable with density function $f(x)$. Then the function defined by: $$F(x) = \int_{-\infty}^{x} f(t)dt$$ is the cumulative distribution function of $X$. Furthermore, we have $$\frac{d}{dx}F(x) = f(x)$$   
 In many experiments, the density function of the relevant random variable is easy to write down. However, it is quite often the case that the **cumulative distribution** function is **easier** to obtain than the **density function**. Of course, once we have the cumulative distribution function, the density function can easily be obtained by differentiation, as the above theorem shows.  
 The density function of *exponential density* is  
-`\begin{equation}
- \left\{ f(t) 
+\begin{equation}
+ f(t) = \left\{  
   \begin{aligned}   
-    \lambda \e^{-\lambda t},  if t \geq 0\\
-    0,  if t < 0 \end{aligned} 
+    \lambda e^{-\lambda t},  t \geq 0\\
+    0,  t < 0 \end{aligned} 
   \right.
-\end{equation}`
+\end{equation}  
+*Problem*: Suppose you choose a real number $X$ from the interval [2, 10] with a density function of the form $$ f(x) = Cx,$$ where $C$ is a constant. Find $C$
+*Solution*: use the density function property $$ P(a \leq X \leq b) = \int_E f(x) dx.$$, we know $$ \int_{2}^{10} Cx = 1$$
