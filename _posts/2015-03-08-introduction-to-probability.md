@@ -37,4 +37,6 @@ The density function of *exponential density* is
 *Problem*: Suppose you choose a real number $X$ from the interval [2, 10] with a density function of the form $$ f(x) = Cx,$$ where $C$ is a constant. Find $C$
 *Solution*: use the density function property $$ P(a \leq X \leq b) = \int_E f(x) dx.$$, we know $$ \int_{2}^{10} Cx dx = 1 $$  
 *Problem*: Take a stick of unit length and break it into three pieces, choosing the break points at random. (The break points are assumed to be chosen simultaneously.) What is the probability that the three pieces can be used to form a triangle?
-*Solution*: Let $b$ and $c$ be the two points' position, then, $b<\frac{1}{2}$, $c<\frac{1}{2}$, and $c-b<\frac{1}{2}$(we assume $b<c$), $c>1-c$. plot the functions in the coordinate system, the answer will be gotten:$\frac{1}{4}$
+*Solution*: Let $b$ and $c$ be the two points' position, then, $b<\frac{1}{2}$, $c<\frac{1}{2}$, and $c-b<\frac{1}{2}$(we assume $b<c$), $c>1-c$. plot the functions in the coordinate system, the answer will be gotten:$\frac{1}{4}$  
+*Problem*: Three points are chosen *at random* on a circle of *unit circumference.* What is the probability that the triangle defined by these points as vertices has three acute angles?
+*Solution*: One of the angles is obtuse if and only if all three points lie in the same semicircle. Take the circumference as the interval [0, 1]. Take one point at 0 and others at B and C. so the probability is $\frac{1}{2}$.  
