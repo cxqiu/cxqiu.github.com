@@ -35,4 +35,4 @@ The density function of *exponential density* is
   \right.
 \end{equation}  
 *Problem*: Suppose you choose a real number $X$ from the interval [2, 10] with a density function of the form $$ f(x) = Cx,$$ where $C$ is a constant. Find $C$
-*Solution*: use the density function property $$ P(a \leq X \leq b) = \int_E f(x) dx.$$, we know $$ \int_{2}^{10} Cx = 1$$
+*Solution*: use the density function property $$ P(a \leq X \leq b) = \int_E f(x) dx.$$, we know $$ \int_{2}^{10} Cx dx = 1 $$
