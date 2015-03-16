@@ -35,4 +35,6 @@ The density function of *exponential density* is
   \right.
 \end{equation}  
 *Problem*: Suppose you choose a real number $X$ from the interval [2, 10] with a density function of the form $$ f(x) = Cx,$$ where $C$ is a constant. Find $C$
-*Solution*: use the density function property $$ P(a \leq X \leq b) = \int_E f(x) dx.$$, we know $$ \int_{2}^{10} Cx dx = 1 $$
+*Solution*: use the density function property $$ P(a \leq X \leq b) = \int_E f(x) dx.$$, we know $$ \int_{2}^{10} Cx dx = 1 $$  
+*Problem*: Take a stick of unit length and break it into three pieces, choosing the break points at random. (The break points are assumed to be chosen simultaneously.) What is the probability that the three pieces can be used to form a triangle?
+*Solution*: Let $b$ and $c$ be the two points' position, then, $b<\frac{1}{2}$, $c<\frac{1}{2}$, and $c-b<\frac{1}{2}$(we assume $b<c$), $c>1-c$. plot the functions in the coordinate system, the answer will be gotten:$\frac{1}{4}$
