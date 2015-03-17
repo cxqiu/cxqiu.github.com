@@ -40,3 +40,8 @@ The density function of *exponential density* is
 *Solution*: Let $b$ and $c$ be the two points' position, then, $b<\frac{1}{2}$, $c<\frac{1}{2}$, and $c-b<\frac{1}{2}$(we assume $b<c$), $c>1-c$. plot the functions in the coordinate system, the answer will be gotten:$\frac{1}{4}$  
 *Problem*: Three points are chosen *at random* on a circle of *unit circumference.* What is the probability that the triangle defined by these points as vertices has three acute angles?
 *Solution*: One of the angles is obtuse if and only if all three points lie in the same semicircle. Take the circumference as the interval [0, 1]. Take one point at 0 and others at B and C. so the probability is $\frac{1}{2}$.  
+##Chapter 3 Permutation
+**Definition 3.1** Let $A$ be any finite set. A *permutation of A* is a one-to-one mapping of *A* onto itself.  
+The expression $n!$ will enter into many of our calculations, and we shall need to have some estimate of its magnitude when $n$ is large. It is clearly not practical to make exact calculations in this case, We shall instead use a result called $Stirling's formula$. Before stating this formula we need a definition.  
+**Definition 3.3** Let $a_n$ and $b_n$ be two sequences of numbers. We say that $a_n$ is *asymptotically equal* to $b_n$, and write $a_n \sim b_n$.  
+**Theorem 3.3(Stirling's Formula)** The sequence $n!$ is asymptotically equal to $$n^ne^{-n}\sqrt{2 \pi n}$$.
