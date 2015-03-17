@@ -44,4 +44,4 @@ The density function of *exponential density* is
 **Definition 3.1** Let $A$ be any finite set. A *permutation of A* is a one-to-one mapping of *A* onto itself.  
 The expression $n!$ will enter into many of our calculations, and we shall need to have some estimate of its magnitude when $n$ is large. It is clearly not practical to make exact calculations in this case, We shall instead use a result called $Stirling's formula$. Before stating this formula we need a definition.  
 **Definition 3.3** Let $a_n$ and $b_n$ be two sequences of numbers. We say that $a_n$ is *asymptotically equal* to $b_n$, and write $a_n \sim b_n$.  
-**Theorem 3.3(Stirling's Formula)** The sequence $n!$ is asymptotically equal to $$n^ne^{-n}\sqrt{2 \pi n}$$.
+**Theorem 3.3(Stirling's Formula)** The sequence $n!$ is asymptotically equal to $$n^{n} e^{-n}\sqrt{2 \pi n}$$.
