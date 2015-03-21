@@ -25,7 +25,8 @@ Definition 1.4 If $P(E) = p$, the *odds* in favor of the event $E$ occurring are
 **Definition 2.1** Let $X$ be a continuous real-valued random variable. A *density function* for $X$ is a real-valued function which satisfies $$ P(a \leq X \leq b) = \int_E f(x) dx.$$ for all $a, b \in R$.  
 **Definition 2.2** Let $X$ be a continuous real-valued random variable. Then the cumulative distribution function of $X$ is defined by the equation $$F_X(x) = P(X \leq x).$$  
 **Theorem 2.1** Let $X$ be a continuous real-valued random variable with density function $f(x)$. Then the function defined by:  
-$$ F(x)={\int_{-\infty}^{x}} f(t) dt $$ is the cumulative distribution function of $X$.   Furthermore, we have $$\frac{d}{dx}F(x) = f(x)$$   
+$$ F(x) = \int_{-\infty}^{x}} f(t) dt $$
+is the cumulative distribution function of $X$.   Furthermore, we have $$\frac{d}{dx}F(x) = f(x)$$   
 In many experiments, the density function of the relevant random variable is easy to write down. However, it is quite often the case that the **cumulative distribution** function is **easier** to obtain than the **density function**. Of course, once we have the cumulative distribution function, the density function can easily be obtained by differentiation, as the above theorem shows.  
 The density function of *exponential density* is  
 \begin{equation}
