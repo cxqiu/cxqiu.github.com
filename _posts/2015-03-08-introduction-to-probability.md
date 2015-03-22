@@ -55,4 +55,5 @@ In fact, it is easy to prove by induction that $$w_n = nw_{n-1} + (-1)^{n}.$$  T
 **Definition 3.5** A *Bernoulli trials process* is a sequence of n chance experiments such that: 
 1. Each experiment has two possible outcomes, which we may call *success* and *failure*.
 2. The probability $p$ of success on each experiment is the same for each experiment, and this probability is not affected by any knowledge of previous outcomes. The probability $q$ of failure is given by $q=1-p$   
-**Definition 3.6** Let $n$ be a positive integer, and let $p$ be a real number between 0 and 1. Let B be the random variable which counts the number of successes in Bernoulli trials process with parameters $n$ and $p$. Then the distribution $b(n, p, k)$ of B is called the *binomial distribution.*
+**Definition 3.6** Let $n$ be a positive integer, and let $p$ be a real number between 0 and 1. Let B be the random variable which counts the number of successes in Bernoulli trials process with parameters $n$ and $p$. Then the distribution $b(n, p, k)$ of B is called the *binomial distribution.*  
+**Theorem 3.6**: Given $n$ Bernoulli trials with probability $p$ of success on each experiment, the probability of exactly $j$ successes is $$b(n,p,j) = (n \choose j) p^j q^{n-j}$$ where $q = 1-p$.
